@@ -20,7 +20,7 @@ public class CRUD extends MongoMain{
     public void read() {
         Document document = getCollection().find().first();
         System.out.println(document.toJson());
-        System.out.println("hello");
+        //System.out.println("hello");
     }
 
     public void update(){
